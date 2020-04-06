@@ -1,0 +1,57 @@
+body {
+  background: #343338;
+}
+
+h1, p {
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px 0px 1px 1px solid #eee;
+}
+
+.feedback {
+  background: #fff;
+  width: 415px;
+  height: 440px;
+  border-radius: 3px;
+  margin: 50px auto;
+  box-shadow: 0 0 3px #555;
+  padding: 15px;
+}
+.feedback h1 {
+  font-size: 1.2em;
+  color: #336699;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.feedback p {
+  font-size: 0.75em;
+  margin-bottom: 5px;
+}
+
+.feedback .form {
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: 6fr 1fr 1fr 1fr 3fr;
+  grid-row-gap: 1em;
+  padding:1em;
+  box-shadow: 0 1px 3px 0.2em rgba(0, 0, 0, 0.32), 0 1px 2px 0.1em rgba(0, 0, 0, 0.64);
+
+}
+.feedback .form textarea {
+  min-height: 150px;
+  resize: none;
+}
+.feedback .form input, .feedback .form textarea {
+  border-radius: 3px;
+  box-shadow: none;
+  border: 0.3
+  em solid #e6e6e6;
+}
+.feedback button.success {
+  padding: 10px 15px;
+  background: #339966;
+  margin-top: 20px;
+}
